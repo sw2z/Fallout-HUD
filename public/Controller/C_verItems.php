@@ -1,8 +1,8 @@
 <?php
 
-    require ('Model/Conexion.php');
+    require('Model/Conex.php');
 
-    $con = new Conexion();
+    $con = new conexion();
 
     $items = $con->getItems();
     

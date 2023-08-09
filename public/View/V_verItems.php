@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<article>
     <table>
         <thead>
                 <tr>
@@ -19,8 +20,9 @@
 
         <tbody>
             <?php
+            
 
-                foreach($items as $item){
+                foreach ($items as $item){
                         
                     echo "<tr>";
                     echo "<td>". $item['ID_item'] ."</td>";
@@ -32,6 +34,6 @@
             ?>
         </tbody>
     </table>
-
+    </article>
 </body>
 </html>
