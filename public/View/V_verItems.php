@@ -6,8 +6,6 @@
     <title>Lista de Items</title>
 </head>
 <body>
-
-<article>
     <table>
         <thead>
                 <tr>
@@ -34,6 +32,5 @@
             ?>
         </tbody>
     </table>
-    </article>
 </body>
 </html>
