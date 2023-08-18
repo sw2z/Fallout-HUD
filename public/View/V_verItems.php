@@ -6,31 +6,36 @@
     <title>Lista de Items</title>
 </head>
 <body>
-    <table>
-        <thead>
-                <tr>
-                    <td>ID</td>
-                    <td>Nombre</td>
-                    <td>Tipo</td>
-                </tr>
-        </thead>
+<div class="container-List">
+<div class="containerStatus">
 
 
-        <tbody>
+    <ul class="Internal-Tab-Status">
+      <li><a href="#WEAPONS"> <span>WEAPONS</span> </a></li>
+      <li><a href="#APPAREL"> <span>APPAREL</span> </a></li>
+      <li><a href="#AID">     <span>AID</span>     </a></li>
+      <li><a href="#MISC">    <span>MISC</span>    </a></li>
+      <li><a href="#JUNK">    <span>JUNK</span>    </a></li>
+      <li><a href="#MODS">    <span>MODS</span>    </a></li>
+      <li><a href="#AMMO">    <span>AMMO</span>    </a></li>
+    <ul>
+</div>
+
+<div class="Items-seccion">
+    <article >
+       <table>
+         <tbody>
             <?php
-            
-
                 foreach ($items as $item){
-                        
                     echo "<tr>";
-                    echo "<td>". $item['ID_item'] ."</td>";
-                    echo "<td>". $item['Nombre'] ."</td>";
-                    echo "<td>". $item['Tipo'] ."</td>";
+                    echo "<td> <a href =''>". $item['Nombre'] ."</a></td>";
                     echo "</tr>";
                 }
-
             ?>
-        </tbody>
-    </table>
+          </tbody>
+       </table>
+    </article>
+</div>
+</div>
 </body>
 </html>

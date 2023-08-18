@@ -1,0 +1,41 @@
+:root{
+        --Secondarycolor: #0f8544;
+}
+.containerStatus{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+ul.Internal-Tab-Status{
+    margin: 0%;
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left:10%;
+    margin-top: 10px;
+}
+ul.Internal-Tab-Status li{
+    margin: 0px 15px;
+}
+ul.Internal-Tab-Status li a{
+    font-size: 30px;
+    text-decoration: none; 
+    text-align: center;
+}
+ul.Internal-Tab-Status li span{
+    color: var(--Secondarycolor);
+}
+.colorActive{
+    color: #1bff80;
+}
+.Items-seccion{
+    position: absolute;
+    left: 10%;
+    margin-top: 40px;
+}
+tbody td{
+    padding: 10px 0px;
+    font-size: 27px;
+}

@@ -9,18 +9,22 @@
 body{
     background-color: var(--background);
 }
+html{
+   width: 100%;
+}
 :root{
     --background: black;
     --PrincipalColor: #1bff80;
 }
 header{
-    width: 100%;
+    width: 99%;
     position: absolute;
     padding: auto;
     display: flex;
     justify-content: space-evenly;
     border-bottom: var(--PrincipalColor) 2px solid;
     justify-content: space-around;
+    border-radius: 5px;
 }
 ul.tabs{
     margin: 0%;
@@ -29,12 +33,12 @@ ul.tabs{
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin-left: 50px ;
+    margin-left: 80px ;
 }
 ul.tabs li{
     align-items: center;
     justify-content: center;
-    width: 80px;
+    width: 70px;
 }
 ul.tabs li a{
     font-size: 30px;
@@ -48,9 +52,11 @@ ul.tabs li a{
     background-color: var(--background);
     border-left: var(--PrincipalColor) 2px solid ;
     border-right: var(--PrincipalColor) 2px solid ;
+    align-items: center;
+    width: 90px;
 }
 .secciones{
-    background-color: rgb(17, 30, 41);
+    background-color: var(--background);
 }
 
 .secciones article{
