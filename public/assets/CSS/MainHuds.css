@@ -4,7 +4,6 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    color: var(--PrincipalColor);
 }
 body{
     background-color: var(--background);
@@ -41,6 +40,7 @@ ul.tabs li{
     width: 70px;
 }
 ul.tabs li a{
+    color: var(--PrincipalColor);
     font-size: 30px;
     text-decoration: none; 
     text-align: center;
@@ -58,7 +58,9 @@ ul.tabs li a{
 .secciones{
     background-color: var(--background);
 }
-
 .secciones article{
     font-size: 30px;
+}
+.color{ 
+    color: #1bff80 !important;
 }

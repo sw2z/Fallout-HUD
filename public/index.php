@@ -14,22 +14,23 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"> </script>
 
-    <script src="assets/JS/Mains.js"></script>
+    <script src="assets/JS/Main.js"></script>
     <title>Fallout HUD</title>
 </head>
 <body>
     
     <header>
 
-    <ul class="tabs">
-      <li><a href="#STAT"> <b><span>STAT</span> </b>  </a></li>
-      <li><a href="#INV"> <b><span>INV</span>  </b>  </a></li>
-      <li><a href="#DATA"> <b><span>DATA</span> </b> </a></li>
-      <li><a href="#MAP"> <b><span>MAP</span>  </b>  </a></li>
-      <li><a href="#RADIO"> <b><span>RADIO</span></b> </b></a></li>
+     <ul class="tabs">
+      <li><a href="#STAT"> <b> <span>STAT</span>   </b>  </a></li>
+      <li><a href="#INV">  <b> <span>INV</span>    </b>  </a></li>
+      <li><a href="#DATA"> <b> <span>DATA</span>   </b>  </a></li>
+      <li><a href="#MAP">  <b> <span>MAP</span>    </b>  </a></li>
+      <li><a href="#RADIO"><b> <span>RADIO</span>  </b>  </a></li>
      <ul>
 
     </header>
+
     <br>
     <br>
  <div class="secciones">

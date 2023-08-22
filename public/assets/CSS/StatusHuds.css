@@ -1,12 +1,7 @@
 :root{
         --Secondarycolor: #0f8544;
 }
-.containerStatus{
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-ul.Internal-Tab-Status{
+ul.internal{
     margin: 0%;
     list-style: none;
     width: 80%;
@@ -15,27 +10,22 @@ ul.Internal-Tab-Status{
     position: relative;
     left:10%;
     margin-top: 10px;
+    left: 20%;
 }
-ul.Internal-Tab-Status li{
+ul.internal li{
     margin: 0px 15px;
 }
-ul.Internal-Tab-Status li a{
+ul.internal li a{
     font-size: 30px;
-    text-decoration: none; 
-    text-align: center;
+    color: #0f8544;
 }
-ul.Internal-Tab-Status li span{
-    color: var(--Secondarycolor);
-}
-.colorActive{
-    color: #1bff80;
-}
-.Items-seccion{
+.ItemSeccion{
     position: absolute;
-    left: 10%;
-    margin-top: 40px;
+    margin-top: 60px;
+    left: 0;
 }
-tbody td{
+tbody td a{
+    color: #1bff80;
     padding: 10px 0px;
     font-size: 27px;
 }
